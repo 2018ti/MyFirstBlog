@@ -13,8 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 @ControllerAdvice
 public class ControllerExceptionHandler {
 
-
-
     private final Logger  logger =LoggerFactory.getLogger(this.getClass());
 
     @ExceptionHandler(Exception.class)
